@@ -6,9 +6,8 @@ date
 echo "ps:"
 ps
 
-echo "while test 7:"
-
-i=7
+echo "while test: 5"
+i=5
 while [[ $i -le 10 ]] ; do
    echo "$i"
   (( i += 1 ))
