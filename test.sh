@@ -13,3 +13,6 @@ while [[ $i -le 10 ]] ; do
    echo "$i"
   (( i += 1 ))
 done
+
+echo "Name?"
+hostname
